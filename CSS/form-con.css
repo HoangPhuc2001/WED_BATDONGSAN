@@ -1,0 +1,326 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;
+}
+
+
+
+.main{
+    width: 1000px;
+    height:auto;
+    margin: 0 auto;
+   
+}
+#header{
+    height: 160px;
+    background-color: rgb(29, 85, 142);
+}
+#banner{
+    width: 1000px;
+    height: 300px;
+    background-image: url('https://media1-reatimes.cdn.vccloud.vn/media/uploaded/27/2016/10/07/noi-that-can-ho-dep5-reatimes-1475840524.jpg');
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+
+}
+@keyframes slider{
+    0%{ background-image: url('https://media1-reatimes.cdn.vccloud.vn/media/uploaded/27/2016/10/07/noi-that-can-ho-dep5-reatimes-1475840524.jpg');  }
+    35%{background-image: url('https://cafefcdn.com/thumb_w/640/2018/12/10/photo-1-1544428589967531957550.jpg');  }
+    70%{ background-image: url('https://news.mogi.vn//wp-content/uploads/2018/08/thiet-ke-noi-that-chung-cu-dep-anh-5.png');  }
+
+}
+.hmenu{
+    height: 50px;
+    background-color:rgb(38, 10, 127);
+    box-shadow:0 1px 30px rgba(255, 254, 254, 0.571);
+}
+.hmenu ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight:500;
+    position: relative;
+}
+.hmenu ul li a{
+    color: white;
+     font-variant: small-caps slashed-zero;
+    font-size: 100%;
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+}
+.hmenu ul li a:hover{
+    font-weight: bolder;
+    color: rgb(247, 8, 8);
+}
+
+
+/*sub---menu*/
+.hmenu ul ul.sub-menu {
+     position: absolute;
+    display: none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:220px;
+    background-color:rgb(38, 10, 127);
+    box-shadow:5px 5px 9px rgb(35, 30, 30);
+}
+
+.hmenu ul ul.sub-menu li{
+    display: block;
+    line-height:20px;
+    height:50px;
+    border-bottom: 1px solid white ;
+    border-top: 1px solid white ;
+    color:rgb(247, 247, 247);
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 10px; 
+    background:  url('https://i.pinimg.com/originals/3f/2c/97/3f2c979b214d06e9caab8ba8326864f3.gif')no-repeat 4px center;
+    background-size: 40px;
+    text-align: center;
+}
+.hmenu>ul>li:hover>ul{
+    display: block;
+}
+ul li ul.sub-menu li:hover {
+    background:url(https://cdn.dribbble.com/users/503653/screenshots/3143656/fluid-loader.gif)no-repeat 1px center ;
+    background-color: rgba(129, 238, 253, 0.44);
+    background-size: 40px;
+    border-bottom: 1px solid white ;
+    border-top: 1px solid white ;
+    font-weight: bolder;
+}
+ul li ul.sub-menu li a:hover{
+    color:rgb(95, 220, 211);
+    padding-right: 10px;
+}
+ul li ul.sub-menu li a{
+  padding-bottom:10px;
+}
+/*hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿t*/
+#slide{
+    height: 25px;
+    background-color:rgb(205, 251, 0);
+}
+#slide p{
+    line-height: 25px;
+    font-size: 20px;
+    color: red;
+}
+/*hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿t*/
+#content{
+    
+    height: 1430px;
+    background-color: rgba(230, 225, 225, 0.53);
+}
+#vmenu{
+    width: 20%;
+    height: 1130px;
+    background-color: #f7951d;
+    float: right;
+}
+.title{
+    height: 40px;
+    background-color: #FF3333;
+}
+.title h2{
+    color:white;
+    line-height: 40px;
+    text-align: center;
+}
+#vmenu ul li{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 20px;
+    border-bottom : 1px solid grey;
+    
+}
+#vmenu ul li a{
+    text-decoration: none;  
+}
+#vmenu ul a:hover{
+    color: rgb(89, 201, 245);
+}
+/*end*/
+h2.tintuc{
+    padding: 6.5px;
+   background: rgb(89, 201, 245);
+    color:white;
+    
+}
+h2.SA{
+    border-bottom-right-radius: 20px;
+    padding: 6.5px;
+    background: rgb(89, 201, 245);
+    color:white;
+}
+#noidung-left{
+    width: 40%;
+    padding: 5px 10px;
+    float: left;
+}
+#noidung-right{
+    width: 40%;
+    padding: 5px 10px ;
+    float: left;
+}
+#DA-LQ{
+
+    width: 80%;
+    float: left;
+    padding: 0 10px ;
+}
+
+.noidung1{
+    font-size:13px;
+    height: 130px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: white;
+}
+.noidung1 p{
+    padding:10px
+}
+.noidung1 img{
+    padding:10px 10px;   
+    border-radius:17px;
+
+}
+.noidung1 p:hover{
+
+    color: green;
+}
+.noidung1 img:hover{
+    box-shadow: 3px 0px 3px gray;
+    padding: 3px;
+    margin: 3px;
+}
+
+/*hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿t*/
+.footer{
+
+    height: 290px;   
+    width: 100%;
+    background-color: rgb(29, 85, 142);
+}
+.footer h3{
+    color: white;
+    text-align:left;
+}
+.footer p.far{
+    line-height: 1.2;
+    text-align:left;
+    color: white;
+}
+.footer h4{
+    color: white;
+    text-align: right;
+}
+.footer p.far3{
+    line-height: 1.2;
+    text-align: right;
+    color: white;
+}
+
+
+.foot{
+   width: 1000px;
+   height:230px;
+   margin: 0 auto;
+}
+.f-1{
+    margin:0 auto;
+    width:400px;
+    height: 230px;
+    background-color: rgba(240, 128, 128, 0);
+}
+.f-2{
+    float:left;
+    width:300px;
+    height: 230px;
+    background-color: rgba(186, 167, 167, 0);
+}
+.f-3{
+    float:right;
+    width:290px;
+    height: 230px;
+    background-color: #f0808000;
+    border-left: 1px solid rgba(255, 255, 255, 0.408);
+}
+/*top-right*/
+.container1{
+    Position:relative;
+}
+
+  /* chÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°nh logo*/
+.img-right{
+    float: right;
+}
+.img-left{
+    float: left;
+}
+.top-right{
+    Position:absolute;
+    Top:0px;
+    Right:0px;
+    Border-bottom-left-radius: 30px;
+    background-color: rgb(0, 229, 255);
+    box-shadow: 0 0 15px white;
+    padding-left:  10px; 
+    padding: 10px;
+    
+}
+
+.top-right> ul >a{
+    text-decoration: none;
+    color: rgb(29, 6, 159);
+    font-weight: bolder;
+    padding: 10px;
+   
+}
+.top-right> ul >a:hover{
+  
+    color: #fffff7;
+
+}
+
+/*reponsize*/
+@media only screen and (max-width: 1000px){
+    .header , .hmenu ul li a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .header , .main, .footer {
+        width: 1000px;
+    }
+}
+
+/* tÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬m kiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿m */
+.search-form{
+  
+    padding: 6px;
+}
+.search{
+    padding:8px 10px;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    background-color:white;
+    color:orangered;
+    box-shadow:inset 0 0 20px blue;
+}
+.search:hover{
+    color:blue;
+    box-shadow:inset 0 0 20px rgb(255, 225, 0);
+}
+.timkiem{
+    border-radius: 20px;
+    padding:7px 20px;
+}
+
+
